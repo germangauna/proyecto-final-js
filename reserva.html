@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramayork - RESERVACIÓN</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--LIBRERIA-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <div class="mainres">
+        <h2>RESERVACIÓN</h2>
+        <form class="formres" id="vacationCalc">
+            <input type="text" placeholder="Nombre Completo" id="nombre" required />
+            <input type="number" placeholder="N° Documento" id="dni" required />
+            <input type="number" placeholder="N° Telefono" id="telefono" required>
+            <input type="email" placeholder="Correo Electronico" id="email" required>
+            <input type="number" placeholder="Pasajeros" id="pasajeros" required />
+            <input type="number" placeholder="Noches" id="noches" required />
+            <input type="text" placeholder="Estandar, Ejecutiva, Business" id="categoria" required />
+            <input type="submit" value="Calculate" class="botonres" id="boton" />
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="iconsres">
+            <h5 class="datores">Personas</h5>
+            <h5 class="datores">Noches</h5>
+            <h5 class="datores">Precio Final</h5>
+        </div>
+
+
+
+        <div class="data">
+            <div class="result" id="result"></div>
+        </div>
+
+    </div>
+
+    <button class="btnpago"><a href="/pagotarjeta.html">PAGAR</a></button>
+
+
+    <script src="js/reserva.js"></script>
+</body>
+
+</html>

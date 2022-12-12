@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramayork Cabañas</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class="header" id="inicio">
+        <img src="/multimedia/bx-menu.svg" alt="menu" class="menu">
+        <!--NAVBAR-->
+        <nav class="menu-navegacion spread">
+            <a href="#inicio">INICIO</a>
+            <a href="#galeria">GALERIA</a>
+            <a href="#servicios">SERVICIOS</a>
+            <a href="#nosotros">INFORMACIÓN</a>
+            <a href="#contacto">CONTACTO</a>
+            <a href="#clima">TIEMPO</a>
+            <a href="reservas.html"><button class="botonNav">RESERVAS</button></a>
+
+        </nav>
+        <!--TITULO-->
+        <div class="contenedor titulo">
+            <h1 class="titulos">Complejo de Cabañas Ramayork</h1>
+            <h4 class="subti">Disfruta del Rio y la Arena</p>
+        </div>
+    </header>
+    <!--FIN HEADER-->
+
+    <!--MAIN-->
+    <main>
+        <!--GALERIA-->
+        <section class="galery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Nuestro Lugar</h2>
+                <div class="contenedor-galeria">
+                    <img src="./multimedia/1.jpg" alt="Cuarto estandar" class="img-galeria">
+                    <img src="./multimedia/2.jpg" alt="Cuarto estandar" class="img-galeria">
+                    <img src="./multimedia/3.jpg" alt="Cuarto estandar" class="img-galeria">
+                    <img src="./multimedia/4.jpg" alt="Cuarto estandar" class="img-galeria">
+                    <img src="./multimedia/5.jpg" alt="Cuarto estandar" class="img-galeria">
+                    <img src="./multimedia/6.jpg" alt="Cuarto estandar" class="img-galeria">
+                    <img src="./multimedia/7.jpg" alt="Cuarto ejecutivo" class="img-galeria">
+                    <img src="./multimedia/8.jpg" alt="Cuarto ejecutivo" class="img-galeria">
+                    <img src="./multimedia/9.jpg" alt="Cuarto ejecutivo" class="img-galeria">
+                    <img src="./multimedia/10.jpg" alt="Cuarto suit" class="img-galeria">
+                    <img src="./multimedia/11.jpg" alt="Cuarto suit" class="img-galeria">
+                    <img src="./multimedia/12.jpg" alt="Cuarto suit" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="./multimedia/close.svg" alt="Cerrar" class="close">
+            <img src="./multimedia/1.jpg" alt="" class="agregar-imagen">
+        </section>
+        <!--FIN GALERIA-->
+
+        <!--SERVICIOS-->
+        <section class="contenedor" id="servicios">
+            <h2 class="subtitulo">Nuestros servicios</h2>
+            <div class="contenedor-servicios">
+                <img src="/multimedia/Checklist _Two Color.svg" alt="Icono servicios">
+                <div class="checklist-servicios">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Seguridad</h3>
+                        <p> La seguridad de nuestros clientes es lo mas importante, por eso contamos con un servicio de segurid especilizada, con mas de 50 camaras en todo el predio, vigilancia en la entradas y salidas, las 24 hs, tambien contamos con asistencia medica las las 24hs. </p>
+                    </div>
+
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Servicio de Maestranza</h3>
+                        <p>A la hora de hablar de higiene, contamos con un  servicio de limpieza que se encarga de acomodar y manteern tanto las cabañas como todo el predio.</p>
+                    </div>
+
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Comodidades</h3>
+                        <p>Wifi en toda la residencia, cocina comedor completamente equipada, ademas contamos con
+                            servicio de buffet si asi lo desea. Todas las habitaciones cuenta con TV por cable, aire y
+                            baño privado</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FIN SERVICIOS-->
+
+        <!--NOSOTROS-->
+        <section class="contenedor" id="nosotros">
+            <h2 class="subtitulo">Quienes Somos?</h2>
+            <p class="parrafo">Aloha Home nace de la necesidad de tantos estudiantes, de conseguir en la ciudad de Mar
+                del Plata alojamiento durante todo el ciclo lectivo sin interrupciones por feriados y / o vacaciones.
+                Frente a la gran demanda de alquileres con precios exorbitantes, es que proponemos una nueva
+                alternativa.</p>
+
+            <p class="parrafo">
+                Con una ubicación inmejorable, Aloha Home, se encuentra a 4 cuadras de Casino y playa popular, a dos
+                cuadras del Shopping Aldrey y a 5 cuadras de la calle del paseo gastronomico Olavarria.</p>
+
+            <p class="parrafo">
+                El establecimiento cuenta con todas las medidas de seguridad, para que cada uno de sus huésped sientan
+                la seguridad que caracteriza la residencia. Además, gracias a sus convenios con otras empresas, es que
+                disponemos de descuentos exclusivos en: Restaurantes, entretenimiento, bares y más.</p>
+        </section>
+
+        <section class="contenedor" id="clima">
+            <h1 class="subtitulo">Temperatura</h1>
+            <div class="contenido">
+                <label class="labelcity" for="ciudad">Nombre Ciudad</label>
+                <input class="inputcity" type="text" id="ciudad">
+                <button id="btnclima">Obtener Clima</button>
+                <output>
+                    <p id="temperatura"></p>
+                </output>
+            </div>
+        </section>
+    </main>
+    <!--FIN MAIN-->
+
+    <!--FOOTER-->
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Ramayork Cabañas</h2>
+            </div>
+
+            <div class="social-media">
+                <a href="" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+
+                <a href="" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+
+                <a href="" class="social-media-icon">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <!--FIN FOOTER-->
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
